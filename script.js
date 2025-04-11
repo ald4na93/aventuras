@@ -5,8 +5,8 @@ const errorMessage = document.getElementById('error-message');
 const completedTasksList = document.getElementById('completed-tasks-list');
 
 // **REEMPLAZA CON TUS CLAVES DE SUPABASE**
-const supabaseUrl = 'TU_PROJECT_URL';
-const supabaseAnonKey = 'TU_ANON_KEY';
+const supabaseUrl = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImplcWNiZXFhY2JvYnR3dHp3aXp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQzMzM5NjEsImV4cCI6MjA1OTkwOTk2MX0.lf_0WxVYjrcjdkbgGPeHZl8cmFej1dWlNH8oekn2Luo';
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImplcWNiZXFhY2JvYnR3dHp3aXp1Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0NDMzMzk2MSwiZXhwIjoyMDU5OTA5OTYxfQ.rMVtglgPpC-iUrqpqZ0kHRs5SzkDp8fVJQUAoZBT3dk';
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 const heartEmojis = ['❤️', '🧡', '💛', '💚', '💙', '💜'];
